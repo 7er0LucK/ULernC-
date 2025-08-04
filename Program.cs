@@ -58,7 +58,7 @@ namespace ULernC_
 
         static int SimpleDely(int N, int X, int Y)
        /* Expr4. Найти количество чисел меньших N,
-         которые имеют простые делители X или Y. */
+          которые имеют простые делители X или Y. */
         {
             N = N - 1;
             int delys = (N / X) + (N / Y) - (N / (X * Y));
@@ -70,6 +70,8 @@ namespace ULernC_
         }
 
         static int LeapYear(int year1, int year2)
+       /* Expr5. Найти количество високосных лет на отрезке [a, b] 
+          не используя циклы.*/
         {
             int years = (year2 / 4) - ((year1 - 1) / 4);
             int hundyears = year2 / 100 - year1 / 100;
@@ -77,5 +79,11 @@ namespace ULernC_
             return leap;
         }
 
+        static int DotToLine(int dotA, int dotB)
+       /* Expr6. Посчитать расстояние от точки до прямой, 
+          заданной двумя разными точками.*/
+        {
+            return dotA * dotB;
+        }
     }
 }
