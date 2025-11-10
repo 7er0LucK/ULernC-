@@ -94,7 +94,7 @@ namespace RomanSakutin
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }
