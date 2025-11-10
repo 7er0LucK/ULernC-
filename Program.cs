@@ -87,3 +87,25 @@ namespace ULernC_
         }
     }
 }
+
+namespace RomanSakutin
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}
+
+namespace LeetCode
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}
